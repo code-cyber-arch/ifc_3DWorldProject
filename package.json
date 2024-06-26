@@ -1,0 +1,22 @@
+{
+    "name": "3d-world-project",
+    "version": "1.0.0",
+    "description": "A simple 3D world project using Three.js and @thatopen/components",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "webpack serve --open",
+      "build": "webpack --mode production"
+    },
+    "dependencies": {
+      "@thatopen/components": "^1.0.0",
+      "@thatopen/ui": "^1.0.0",
+      "three": "^0.132.2",
+      "stats.js": "^1.0.0"
+    },
+    "devDependencies": {
+      "webpack": "^5.64.4",
+      "webpack-cli": "^4.9.1",
+      "webpack-dev-server": "^4.7.1"
+    }
+  }
+  
